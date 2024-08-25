@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+  transition: transform 0.1s ease-in-out, opacity 0.1s ease-in-out;
+
+  scroll-behavior: smooth;
+
+  --success-text: rgb(30, 70, 32);
+  --success-bg: rgb(237, 247, 237);
+
+  --error-text: rgb(95, 33, 32);
+  --error-bg: rgb(253, 237, 237);
+
+  --warning-text: rgb(255, 226, 183);
+  --warning-bg: rgb(25, 18, 7);
+
+  --info-text: rgb(1, 67, 97);
+  --info-bg: rgb(229, 246, 253);
+}
